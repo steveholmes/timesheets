@@ -39,3 +39,10 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 gem 'devise'
+
+group :development do
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'meta_request'
+end
+
